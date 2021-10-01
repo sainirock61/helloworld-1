@@ -156,6 +156,15 @@
 	$('#dropdown04').on('show.bs.dropdown', function () {
 	  console.log('show');
 	});
+	
+	$(window).stellar({
+    responsive: true,
+    parallaxBackgrounds: true,
+    parallaxElements: true,
+    horizontalScrolling: false,
+    hideDistantElements: false,
+    scrollProperty: 'scroll'
+  });
 
 	// scroll
 	var scrollWindow = function() {
